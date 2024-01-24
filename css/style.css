@@ -141,7 +141,7 @@ body {
     font-size: 2rem;
     font-weight: 200;
     font-style: italic;
-    color: purple;
+    color: rgb(216, 123, 160);
   }
 
   .projects-section {
@@ -251,14 +251,12 @@ body {
 
 .kokotzryby {
   background-color: #2c2d2e;
-
+  display: flex;
+  justify-content: space-between;
 }
 
-.kokotzryby p{
-  float: left;
-  display: block;
-  color: #cc0505;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+#about {
+  background: black url(../img/annie-spratt-gM8igOIP5MA-unsplash.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: white;
 }
